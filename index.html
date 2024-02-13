@@ -181,20 +181,42 @@
 		</div>
 	</div>
 
-	<div itemscope itemtype="https://schema.org/Person">
-		<h2>Ou contactez moi directement</h2>
-		<div class="container">
-			<p itemprop="name">Nina Carducci</p>
-			<p itemprop="telephone">05 56 67 78 89</p>
-			<p>Du Lundi au Vendredi, de 10h à 19h</p>
-		</div>
-		<div class="container" itemscope itemtype="https://schema.org/PostalAddress">
-			<p itemprop="streetAddress">68 avenue Alsace-Lorraine</p>
-			<p itemprop="addressLocality">Bordeaux</p>
-			<p itemprop="postalCode">33200</p>
-		</div>
-	</div>
-
 </section>
+<script type="application/ld+json">
+	{
+		"@context": "http://schema.org",
+		"@type": ["LocalBusiness", "Service"],
+		"name": "Nina Carducci",
+		"description": "Nina Carducci, photographe professionnelle à Bordeaux",
+		"image": "https://github.com/BuckyBuck135/Projet-5---nina-carducci.github.io/blob/main/assets/images/nina-lossy.webp",
+		"url": "https://nina-carducci-photographe.netlify.app/",
+		"telephone": "0556677889",
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "68 avenue Alsace-Lorraine",
+			"addressLocality": "Bordeaux",
+			"postalCode": "33200",
+			"addressCountry": "FR"
+			},
+		"geo": {
+			"@type": "GeoCoordinates",
+			"latitude": "44.8466732",
+			"longitude": "-0.6065805"
+		},
+		"openingHoursSpecification": {
+			"@type": "OpeningHoursSpecification",
+			"dayOfWeek": [
+				"lundi",
+				"mardi",
+				"mercredi",
+				"jeudi",
+				"vendredi"
+			],
+			"opens": "10:00",
+			"closes": "19:00"
+		},
+		"priceRange" : "50€ - 400€"
+	}	
+</script>
 </body>
 </html>
